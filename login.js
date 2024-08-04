@@ -4,7 +4,7 @@ import {
     GoogleAuthProvider,
     signInWithPopup,
     GithubAuthProvider,
-  } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-analytics.js";
+  } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js";
   import { auth } from "./config.js";
 
 
