@@ -18,7 +18,7 @@ const loginwithgithub = document.querySelector(`#github`);
 
 form.addEventListener(`submit` , (event) => {
     event.preventDefault();
-    createUserWithEmailAndPassword(auth, email.value, password.value)
+    signInWithEmailAndPassword(auth, email.value, password.value)
     .then((userCredential) => {
       const user = userCredential.user;
       console.log(user);

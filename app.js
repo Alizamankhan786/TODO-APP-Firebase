@@ -10,6 +10,8 @@ const btn = document.querySelector(`#register`);
 form.addEventListener(`submit` , (event) =>{
 
     event.preventDefault();
+
+    
     createUserWithEmailAndPassword(auth, email.value, password.value)
   .then((userCredential) => {
     const user = userCredential.user;
